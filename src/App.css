@@ -1,15 +1,12 @@
 #root {
-  max-width: 1280px;
+  max-width: 1920px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
   text-align: center;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  padding: 0;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
@@ -18,3 +15,35 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+
+.navbar-container {
+  width: 1617px;
+  background-color: #1E1E1E;
+  /* outline: 1px solid lime; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+}
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+  gap: 72px;
+  list-style: none;
+}
+.nav-item a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.gb-container {
+  /* outline: 1px solid salmon; */
+  /* display: flex; */
+  padding-top: 22px;
+}
+.g-img {
+  width: 382px;
+  opacity: 0.6;
+}
