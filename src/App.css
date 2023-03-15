@@ -40,10 +40,84 @@
 
 .gb-container {
   /* outline: 1px solid salmon; */
-  /* display: flex; */
+  display: flex;
   padding-top: 22px;
+  gap: 12px;
+  outline: 1px solid lime;
 }
 .g-img {
   width: 382px;
   opacity: 0.6;
+}
+.g-img:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------  ANIMATION  ---------------------------------------- */
+.box {
+  position: relative;
+  width: 394px;
+  height: 225px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.box:hover:after {
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-image: conic-gradient(transparent, transparent, transparent, red);
+  animation: animate 4s linear infinite;
+  animation-delay: -2s;
+}
+.box:hover:before {
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-image: conic-gradient(transparent, transparent, transparent, red);
+  animation: animate 4s linear infinite;
+}
+@keyframes animate {
+  0%
+  {
+    transform: rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+}
+/* .box span {
+  position: absolute;
+  inset: 5px;
+  background: #1E1E1E;
+  z-index: 1;
+} */
+.span-2 {
+  position: absolute;
+  inset: 5px;
+  background-image: url("images/1600849560_494635_1600849813_portada_normal-rf.png");
+  background-size: cover;
+  z-index: 1;
+}
+.span-2:hover {
+  background-image: url("images/capsule_616x353.jpg");
+  background-size: cover;
+}
+.box h2 {
+  position: relative;
+  z-index: 2;
+  color: white;
 }
