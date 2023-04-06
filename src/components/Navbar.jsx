@@ -1,8 +1,5 @@
-
-
 const Navbar = () => {
   
-
   return (
     <section>
       <div className="navbar-container">
