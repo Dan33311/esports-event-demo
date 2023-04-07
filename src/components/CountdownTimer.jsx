@@ -57,11 +57,11 @@ function CountdownTimer() {
       <p>
         Countdown to: May 19, 2023 23:59:59
       </p>
-      <div>
-        <p>{countdown.days} </p>
-        <p>{countdown.hours} </p>
-        <p>{countdown.minutes} </p>
-        <p>{countdown.seconds} </p>
+      <div className="countdown">
+        <p className="font-face-dg" style={{ fontVariant: ["tabular-nums"] }}>{countdown.days} </p>
+        <p className="font-face-dg">{countdown.hours} </p>
+        <p className="font-face-dg">{countdown.minutes} </p>
+        <p className="font-face-dg" style={{ fontVariant: ["tabular-nums"] }}>{countdown.seconds} </p>
       </div>
     </div>
   );

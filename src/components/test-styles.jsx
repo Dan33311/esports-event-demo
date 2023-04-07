@@ -1,9 +1,9 @@
-const TestStyles = () => {
+const Test = () => {
   return (
     <div className="test-s">
-      <img className="test-animation" src="images/test.png" alt="" />
+      
     </div>
   );
 }
 
-export default TestStyles;
+export default Test;
