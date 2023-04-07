@@ -1,3 +1,5 @@
+import CountdownTimer from './CountdownTimer'
+
 const Hero = () => {
 
   return (
@@ -15,7 +17,9 @@ const Hero = () => {
 
         <div className="countdown"></div>
 
-        <p className="date"><span>29 Abril</span></p>
+        <CountdownTimer />
+
+        <p className="date"><span>Mayo 20</span></p>
       </div>
     </section>
   );
