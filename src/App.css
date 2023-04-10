@@ -5,17 +5,8 @@
   text-align: center;
 }
 
-.logo {
-  padding: 0;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
-
+/*    NAVBAR    -----------------------------    */
 .navbar-container {
   width: 1617px;
   display: flex;
@@ -24,7 +15,6 @@
   align-items: center;
   position: relative;
   padding-top: 16px;
-  /* outline: 1px solid lime; */
 }
 .navbar-logo img {
   width: 300px;
@@ -48,7 +38,7 @@
 }
 .nav-item a:hover {
   color: #fff;
-  text-shadow: 0 0 5px #7532a8,
+  text-shadow:0 0 5px #7532a8,
               0 0 25px #7532a8,
               0 0 50px #7532a8,
               0 0 100px #7532a8;
@@ -63,47 +53,99 @@
 }
 
 
+/*    HERO    ----------------------------------    */
 .hero {
-  /* outline: 1px solid salmon; */
+  width: 1918px;
+  background-image: url("images/hero-background.png");
+  background-size: 1918px 860px;
+  background-repeat: no-repeat;
 }
 .hero-container {
   display: flex;
   flex-direction: column;
-}
-.logo-pccc {
-  margin-top: 58px;
+  align-items: center;
+  position: relative;
+  padding-bottom: 26px;
 }
 .logos {
   display: flex;
+  justify-content: center;
   gap: 260px;
 }
 .logo-ccw {
   width: 449px;
   height: 126px;
   margin-top: 63px;
-  /* outline: 1px solid lime; */
 }
 .logo-j {
   width: 449px;
-  /* height: ; */
   margin-top: 16px;
-  /* outline: 1px solid lime; */
 }
-
-
-
+.count-light {
+  height: 500px;
+  position: absolute;
+  margin-top: 20px;
+  align-items: center;
+}
 .countdown {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 54px;
+  margin-top: 36px;
 }
-.font-face-dg {
+.count {
+  width: 173px;
+}
+.count-font {
   font-family: 'Share Tech Mono', monospace;
-  font-size: 130px;
-  /* font-variant-numeric: proportional-nums; /* <numeric-spacing-values>
-  font-variant-numeric: tabular-nums; <numeric-spacing-values>
-  font-variant-numeric: lining-nums; */
-  outline: 1px solid salmon;
-  color: violet;
+  font-family: 'Tourney', cursive;
+  font-size: 90px;
+  border: 1px solid var(--byzantine);
+  border-radius: 3px;
+  background-color: #110c15;
+  color: var(--byzantine);
+  padding: 0 20px;
+}
+.days, .hours, .minutes, .seconds {
+  text-transform: uppercase;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 40px;
+  color: var(--byzantine);
+  margin-top: 18px;
+}
+.count-seconds {
+  animation: count-shadow ease-in-out 3s infinite;
+}
+.date {
+  font-family: 'Anek Kannada', sans-serif;
+  text-transform: uppercase;
+  font-size: 56px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.logo-plazac {
+  margin-top: 0px;
+}
+.logo-plazac img {
+  width: 440px;
+}
+.hero-footer {
+  font-weight: 300;
+  font-size: 22px;
+  margin-top: 64px;
+}
+
+
+/*    ANIMATIONS    ----------------------------------    */
+@keyframes count-shadow {
+  0% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0px 0px 16px 1px var(--grape);
+  }
+  0% {
+    box-shadow: none;
+  }
 }

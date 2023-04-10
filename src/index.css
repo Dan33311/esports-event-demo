@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bahianita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@700&display=swap');
 
 
 :root {
+  --grape: #7532A8;
+  --byzantine: #B12E9A;
+  --eirieblack: #1a1220;
   font-family: 'Anek Kannada', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #1a1220;
+  background-color: var(--eirieblack);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,22 +24,12 @@
   -webkit-text-size-adjust: 100%;
 }
 
-@font-face {
-  font-family: "DSDigiBold";
-  src: local("ds_digital"), url("./fonts/ds_digital/DS-DIGI.ttf") format("truetype");
-  font-weight: bold;
-}
-
-
 a {
   text-decoration: inherit;
 }
 p {
   margin: 0;
 }
-/* a:hover {
-  color: #7532a8 ;
-} */
 
 body {
   margin: 0;
@@ -76,9 +73,6 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
-  /* a:hover {
-    color: #747bff;
-  } */
   button {
     background-color: #f9f9f9;
   }
