@@ -47,15 +47,16 @@
   width: 1260px;
   height: 60px;
   position: absolute;
-  right: 0;
+  right: -140px;
   bottom: 0;
   z-index: 99;
+  /* outline: 1px solid sandybrown; */
 }
 
 
 /*    HERO    ----------------------------------    */
 .hero {
-  width: 1918px;
+  width: 1903px;
   background-image: url("images/hero-background.png");
   background-size: 1918px 860px;
   background-repeat: no-repeat;
@@ -135,6 +136,89 @@
   font-size: 22px;
   margin-top: 64px;
 }
+
+
+/*    EVENTS    ----------------------------------    */
+.games-container {
+  width: 1620px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.games-title {
+  width: 100%;
+}
+.games-title h2 {
+  font-size: 96px;
+  text-align: start;
+  margin-bottom: 0;
+}
+.title-light {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  margin-top: -24px;
+}
+.title-light img:nth-child(1) {
+  height: 1px;
+}
+.title-light img:nth-child(2) {
+  position: absolute;
+  right: 0;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+  margin-top: 100px;
+}
+.game-img {
+  width: 583px;
+}
+.card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 528px;
+}
+.card-description h3 {
+  font-size: 64px;
+  text-transform: uppercase;
+}
+.card-description p {
+  font-size: 20px;
+  text-align: start;
+}
+.game-tags {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  margin-top: -9px;
+}
+.game-tags p {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--byzantine);
+  margin-top: -38px;
+  text-align: center;
+}
+.game-desc {
+  text-align: start;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.card-description h4 {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--byzantine);
+  margin-top: 33px;
+}
+
+
 
 
 /*    ANIMATIONS    ----------------------------------    */
