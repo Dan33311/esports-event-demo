@@ -220,6 +220,9 @@
   color: var(--byzantine);
   margin-top: 33px;
 }
+.card-description .card-variant-color {
+  color: var(--grape);
+}
 .separator {
   text-align: start;
 }
