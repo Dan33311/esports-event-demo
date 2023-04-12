@@ -1,4 +1,6 @@
-import GameCard from './GameCard'
+import GameSFVCard from './GameSFVCard'
+import GameKOFCard from './GameKOFCard'
+import GameFifaCard from './GameFifaCard';
 
 const Games = () => {
   return ( 
@@ -13,11 +15,15 @@ const Games = () => {
           </div>
         </div>
 
-        <GameCard />
-
-        <div>
-          <img src="" alt="" />
+        <GameSFVCard />
+        <div className="separator">
+          <img src="/images/game-separator.png" alt="" />
         </div>
+        <GameFifaCard />
+        <div className="separator-left">
+          <img src="/images/game-separator.png" alt="" />
+        </div>
+        <GameKOFCard />
 
       </div>
     </section>

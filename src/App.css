@@ -144,6 +144,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 100px;
 }
 .games-title {
   width: 100%;
@@ -151,6 +153,7 @@
 .games-title h2 {
   font-size: 96px;
   text-align: start;
+  text-transform: uppercase;
   margin-bottom: 0;
 }
 .title-light {
@@ -172,7 +175,7 @@
   justify-content: center;
   align-items: center;
   gap: 130px;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 .game-img {
   width: 583px;
@@ -217,7 +220,22 @@
   color: var(--byzantine);
   margin-top: 33px;
 }
-
+.separator {
+  text-align: start;
+}
+.separator img {
+  opacity: 0.1;
+  margin-top: 90px;
+  margin-left: 300px;
+}
+.separator-left {
+  text-align: end;
+}
+.separator-left img {
+  opacity: 0.1;
+  margin-top: 90px;
+  margin-right: 300px;
+}
 
 
 
