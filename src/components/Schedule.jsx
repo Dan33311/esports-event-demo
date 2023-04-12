@@ -23,13 +23,13 @@ const gameCards = [
     hour: '14:30',
     activity: 'concurso',
     title: 'cosplay',
-    image: '/images/e-sf.png'
+    image: '/images/e-cos.png'
   },
   {
     hour: '15:00',
     activity: 'sorteo',
-    title: 'productos Janus',
-    image: '/images/e-sf.png'
+    title: 'accesorios Janus',
+    image: '/images/e-gifts.png'
   }
 ]
 
@@ -47,17 +47,17 @@ const Schedule = () => {
         </div>
 
         <div className="date-tag">
-          <img src="/images/polygon-tag.png" alt="" />
+          <img src="/images/polygon-date-s.png" alt="" />
           <p>Mayo 13</p>
         </div>
 
-        <div>
-          <div className="hours-map">
+        <div className="g-cards-container">
+          <div className="hours-polygons">
             <img src="/images/line-polygons.png" alt="" />
           </div>
-          <div>
+          <div className="g-cards">
             {gameCards.map(gameCard => 
-              <div>
+              <div className="g-card">
                 <GameTimeCard 
                   hour={gameCard.hour}
                   activity={gameCard.activity}
