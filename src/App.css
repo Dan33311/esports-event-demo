@@ -138,23 +138,15 @@
 }
 
 
-/*    EVENTS    ----------------------------------    */
-.games-container {
-  width: 1620px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 60px;
-  padding-bottom: 100px;
-}
-.games-title {
+/*    TITLE    ----------------------------------    */
+.section-title {
   width: 100%;
 }
-.games-title h2 {
-  font-size: 96px;
+.section-title h2 {
+  font-size: 64px;
   text-align: start;
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin-bottom: 4px;
 }
 .title-light {
   display: flex;
@@ -169,6 +161,17 @@
 .title-light img:nth-child(2) {
   position: absolute;
   right: 0;
+}
+
+
+/*    EVENTS    ----------------------------------    */
+.games-container {
+  width: 1620px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 100px;
 }
 .card {
   display: flex;
@@ -315,13 +318,14 @@
 
 
 /*    ABOUT    ---------------------------------    */
-.about-container{
+.about-container {
   display: flex;
   flex-direction: column;
   padding-bottom: 100px;
 }
 .about-container h2{
-  font-size: 64px;
+  font-size: 55px;
+  margin-bottom: 7px;
 }
 .about-info {
   display: flex;
@@ -335,6 +339,7 @@
   max-width: 563px;
   text-align: justify;
   font-size: 18px;
+  font-weight: 300;
 }
 .about-desc {
   width: 573px;

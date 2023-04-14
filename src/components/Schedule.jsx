@@ -1,4 +1,5 @@
-import GameTimeCard from "./GameTimeCard"
+import GameTimeCard from './GameTimeCard'
+import Title from './Title'
 
 const gameCards = [
   {
@@ -33,18 +34,13 @@ const gameCards = [
   }
 ]
 
+
 const Schedule = () => {
   return (  
     <section className="schedule">
       <div className="schedule-container">
 
-        <div className="games-title">
-          <h2>Programacion</h2>
-          <div className="title-light">
-            <img src="/images/line-title.png" alt="" />
-            <img src="/images/light-line.png" alt="" />
-          </div>
-        </div>
+        <Title title="Programacion" />
 
         <div className="date-tag">
           <img src="/images/polygon-date-s.png" alt="" />
@@ -71,7 +67,7 @@ const Schedule = () => {
 
       </div>
     </section>
-  );
+  )
 }
 
-export default Schedule;
+export default Schedule
