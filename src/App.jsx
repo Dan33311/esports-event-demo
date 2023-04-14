@@ -2,8 +2,9 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Games from './components/Games';
-import Schedule from './components/Schedule';
+import Games from './components/Games'
+import Schedule from './components/Schedule'
+import About from './components/About'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Games />
       <Schedule />
+      <About />
     </div>
   )
 }

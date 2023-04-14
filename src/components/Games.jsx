@@ -1,6 +1,6 @@
 import GameSFVCard from './GameSFVCard'
 import GameKOFCard from './GameKOFCard'
-import GameFifaCard from './GameFifaCard';
+import GameFifaCard from './GameFifaCard'
 
 const Games = () => {
   return ( 
@@ -27,7 +27,7 @@ const Games = () => {
 
       </div>
     </section>
-  );
+  )
 }
 
-export default Games;
+export default Games
