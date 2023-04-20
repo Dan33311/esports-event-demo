@@ -7,6 +7,7 @@ import Schedule from './components/Schedule'
 import About from './components/About'
 import Sponsors from './components/Sponsors'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Sponsors />
       <Contact />
+      <Footer />
     </div>
   )
 }
