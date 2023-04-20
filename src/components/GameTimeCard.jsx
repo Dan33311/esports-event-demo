@@ -13,7 +13,7 @@ const GameTimeCard = ({hour, activity, title, image}) => {
       </div>
 
     </div>
-  );
+  )
 }
 
-export default GameTimeCard;
+export default GameTimeCard

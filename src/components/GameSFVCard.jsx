@@ -34,7 +34,7 @@ const GameSFVCard = () => {
       </div>
 
     </div>
-  );
+  )
 }
 
-export default GameSFVCard;
+export default GameSFVCard

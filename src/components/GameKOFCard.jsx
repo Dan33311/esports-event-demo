@@ -34,7 +34,7 @@ const GameKOFCard = () => {
       </div>
 
     </div>
-  );
+  )
 }
 
-export default GameKOFCard;
+export default GameKOFCard

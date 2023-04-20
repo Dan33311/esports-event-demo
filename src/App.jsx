@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Games from './components/Games'
 import Schedule from './components/Schedule'
 import About from './components/About'
+import Sponsors from './components/Sponsors'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Games />
       <Schedule />
       <About />
+      <Sponsors />
     </div>
   )
 }

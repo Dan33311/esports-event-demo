@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

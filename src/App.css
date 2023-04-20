@@ -27,21 +27,35 @@
   list-style: none;
   position: absolute;
   right: 0;
-  top: 22px;
+  top: 9px;
   z-index: 100;
 }
-.nav-item a {
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-link {
   color: white;
   text-transform: uppercase;
   font-weight: 500;
-  padding: 12px 40px;
+  margin: 12px 40px;
 }
-.nav-item a:hover {
+.nav-link:hover {
   color: #fff;
-  text-shadow:0 0 5px #7532a8,
-              0 0 25px #7532a8,
-              0 0 50px #7532a8,
-              0 0 100px #7532a8;
+  text-shadow: 0px 0px 30px #af63e9, 0px 0px 30px #af63e9;
+}
+.nav-item::after {
+  content: "";
+  width: 80px;
+  margin-top: 3px;
+}
+.nav-item:hover:after {
+  border-bottom: 4px solid var(--grape);
+  box-shadow: 0px 0px 20px #af63e9, 0px 0px 20px #af63e9;
+}
+.nav-item:active:after {
+  border-bottom: 4px solid var(--grape);
 }
 .nav-light {
   width: 1260px;
@@ -50,7 +64,6 @@
   right: -140px;
   bottom: 0;
   z-index: 99;
-  /* outline: 1px solid sandybrown; */
 }
 
 
@@ -321,6 +334,7 @@
 .about-container {
   display: flex;
   flex-direction: column;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 .about-container h2{
@@ -344,6 +358,30 @@
 .about-desc {
   width: 573px;
 }
+
+
+/*    SPONSORS    ---------------------------------    */
+.sponsors-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.sponsors-container h2{
+  font-size: 55px;
+  margin-bottom: 7px;
+}
+.sponsors-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 100px;
+}
+
+
+
 
 
 

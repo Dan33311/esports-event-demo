@@ -20,7 +20,7 @@ const Hero = () => {
         <p className="hero-footer">¡Inscríbete y participa en nuestros eventos y actividades totalmente gratis!</p>
       </div>
     </section>
-  );
+  )
 }
 
-export default Hero;
+export default Hero

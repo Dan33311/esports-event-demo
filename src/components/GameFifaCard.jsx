@@ -34,7 +34,7 @@ const GameFifaCard = () => {
       </div>
 
     </div>
-  );
+  )
 }
 
-export default GameFifaCard;
+export default GameFifaCard
