@@ -331,17 +331,17 @@
 
 
 /*    ABOUT    ---------------------------------    */
-.about-container {
+.about-container, .sponsors-container, .contact-container {
   display: flex;
   flex-direction: column;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.about-container h2{
+.about-container, .sponsors-container, .contact-container h2{
   font-size: 55px;
   margin-bottom: 7px;
 }
-.about-info {
+.about-info, .sponsors-info, .contact-info {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -361,27 +361,50 @@
 
 
 /*    SPONSORS    ---------------------------------    */
-.sponsors-container {
-  display: flex;
-  flex-direction: column;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.sponsors-container h2{
-  font-size: 55px;
-  margin-bottom: 7px;
-}
 .sponsors-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   gap: 100px;
-  margin-top: 100px;
 }
 
 
-
+/*    CONTACT    ---------------------------------    */
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+}
+.email-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+}
+.social-media {
+  display: flex;
+  gap: 24px;
+}
+.email,
+.facebook,
+.instagram,
+.twitter {
+  display: grid;
+  align-items: center;  
+}
+.email svg,
+.email img,
+.facebook svg,
+.facebook img,
+.instagram svg,
+.instagram img,
+.twitter svg,
+.twitter img {
+  grid-area: 1/1;
+}
+.email img,
+.facebook img,
+.instagram img,
+.twitter img {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 

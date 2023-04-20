@@ -6,6 +6,7 @@ import Games from './components/Games'
 import Schedule from './components/Schedule'
 import About from './components/About'
 import Sponsors from './components/Sponsors'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Schedule />
       <About />
       <Sponsors />
+      <Contact />
     </div>
   )
 }
